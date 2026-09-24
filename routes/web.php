@@ -9,5 +9,3 @@ Route::get('/', function () {
 
 // Playing
 Route::get('playing', [PlayingController::class, 'playing']);
-
-Route::get('check-secret', [PlayingController::class, 'checkSecret']);
